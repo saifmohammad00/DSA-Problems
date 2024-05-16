@@ -31,7 +31,7 @@ public:
 	   T* x=new T[2*capacity];
           int j=0;
           for(int i=firstindex;i<capacity;i++){
-             x[i]=arr[i];
+             x[j]=arr[i];
              j++;
           }
           for(int i=0;i<firstindex;i++){
